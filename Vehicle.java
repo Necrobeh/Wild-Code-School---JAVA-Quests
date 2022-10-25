@@ -4,8 +4,8 @@ public abstract class Vehicle {
     private int kilometers;
 
     public Vehicle(String brand, int kilometers){
-        this.setBrand(brand);
-        this.setKilometers(kilometers);
+        this.brand = brand;
+        this.kilometers = kilometers;
     }
     
     public String getBrand(){
